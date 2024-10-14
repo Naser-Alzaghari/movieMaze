@@ -1,1 +1,1 @@
-# movieMaze
+# Movies_Web_App

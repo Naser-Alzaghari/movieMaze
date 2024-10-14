@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary meta tags -->
+    <meta
+      name="description"
+      content="MovieMaze is a popular movie ."
+    />
+
+    <!-- favicon -->
+    <link rel="icon" href="./assets/images/moviemaze-high-resolution-logo-transparent.png" type="image/svg+xml" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- custom js link -->
+  
+  </head>
+
+  <body>
+    <!-- #HEADER -->
+    <header class="header">
+      <a href="./home.html" class="logo">
+        <img
+
+          src="./assets/images/moviemaze-high-resolution-logo-transparent.png"
+
+          width="140"
+          height="32"
+          alt="MovieMaze home"
+        />
+      </a>
+
+      <div class="search-box">
+        <div class="search-wrapper">
+          <input
+            type="text"
+            name="search"
+            aria-label="search movies"
+            placeholder="Search any movies..."
+            autocomplete="off"
+            class="search-field"
+          />
+          <div class="loading-spinner">
+            <img
+              src="./assets/images/search.png"
+              width="24"
+              height="24"
+              alt="search"
+              class="leading-icon"
+            />
+          </div>
+        </div>
+    
+        <button class="search-btn">
+          <img
+            src="./assets/images/close.png"
+            width="24"
+            height="24"
+            alt="close search box"
+          />
+        </button>
+      </div>
+    
+      <div class="search-toggle search-btn">
+        <img
+          src="./assets/images/search.png"
+          width="24"
+          height="24"
+          alt="open search box"
+        />
+      </div>
+    
+      <button class="menu-btn menu-toggle">
+        <img
+          src="./assets/images/menu.png"
+          width="24"
+          height="24"
+          alt="open menu"
+          class="menu"
+        />
+        <img
+          src="./assets/images/menu-close.png"
+          width="24"
+          height="24"
+          alt="close menu"
+          class="close"
+        />
+      </button>
+    </header>
+
+    <main>
+      <!-- #SIDEBAR -->
+      <nav class="sidebar" id="sidebar"></nav>
+      <div class="overlay" id="overlay" menu-toggler></div>
+
+      <section class="container" id="container"></section>
+    </main>
+    <script src="./assets/js/global.js" ></script>
+    <script src="./assets/js/favorite-movie-list.js "type="module" ></script>
+  </body>
+
+  <script>
+    
+  </script>
+</html>
